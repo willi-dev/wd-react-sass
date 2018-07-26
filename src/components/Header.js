@@ -30,13 +30,13 @@ class Header extends Component {
 			  <div className={ isMenuOpen ? 'collapse show navbar-collapse': 'collapse navbar-collapse'} id="navbarSupportedContent">
 			    <ul className="navbar-nav mr-auto">
 			      <li className="nav-item">
-			        <a className="nav-link" href="#section1">Section 1</a>
+			        <a className="nav-link" href="#section1" onClick={this.onClickMenu}>Section 1</a>
 			      </li>
 			      <li className="nav-item">
-			        <a className="nav-link" href="#section2">Section 2</a>
+			        <a className="nav-link" href="#section2" onClick={this.onClickMenu}>Section 2</a>
 			      </li>
 			      <li>
-			        <a className="nav-link" href="#section3">Section 3</a>
+			        <a className="nav-link" href="#section3" onClick={this.onClickMenu}>Section 3</a>
 			      </li>
 			     
 			    </ul>
