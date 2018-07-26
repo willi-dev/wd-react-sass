@@ -1,0 +1,13 @@
+.section{
+	min-height: 100vh;
+
+	&__blue{
+		background-color: blue;
+	}
+	&__yellow{
+		background-color: yellow;
+	}
+	&__red{
+		background-color: red;
+	}
+}
